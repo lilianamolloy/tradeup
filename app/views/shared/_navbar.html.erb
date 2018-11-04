@@ -2,13 +2,14 @@
      <%= link_to(image_tag(asset_path('tradeup_logo.png'), width: '100'), root_path) %><br><br><br>
 
     <% if user_signed_in? %>
-        <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
-        <%= link_to('Edit Profile', edit_user_profile_path(current_user.user_profile.id)) %>
         <%= link_to('My Jobs', my_jobs_path(current_user.user_profile.id)) %>
         <%= link_to('View All Jobs', jobs_path) %>
         <%= link_to('Add a New Job', new_job_path) %>
         <%= link_to("Become a Tradie", edit_user_profile_path(current_user.user_profile.id, :abn_insurance => 0)) %>
-        <p>Welcome, <%= link_to current_user.username, user_profile_path(current_user.user_profile.id)%></p>
+        <p>Welcome, <%= link_to current_user.username, user_profile_path(current_user.user_profile.id)%>
+        <%= link_to('Logout', destroy_user_session_path, method: :delete) %>
+        <%= link_to('Edit Profile', edit_user_profile_path(current_user.user_profile.id)) %>        
+        </p>
     <% else %>
         <%= link_to('Sign Up', new_user_registration_path) %>
         <%= link_to('Sign In', new_user_session_path) %>
