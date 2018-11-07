@@ -7,7 +7,7 @@
 
   <% if !@job.images.empty?  %>
     <% (0...@job.images.count).each do |image| %>
-      <%= image_tag @job.images[image], width:'300'%>
+      <%= image_tag @job.images[image], height:'300'%>
     <% end %>
   <% end %>
 
@@ -48,6 +48,11 @@
     <strong>Property Manager:</strong>
       <%= @job.users.first.username %><br>
     Click <a href="../user_profiles/<%=@job.users.first.user_profile.id%>">Here</a> to see the property manager's profile
+  </p>
+
+  <p>
+    <strong>Email:</strong>
+      <%= @job.users.first.email %><br>
   </p>
 
   <% if @is_job_creator || @job_status == 2  %>
