@@ -9,7 +9,7 @@
     .job_details {
         display: grid;
         font-size: 1rem;
-        grid-template-columns: 1.3fr 5px 1fr;
+        grid-template-columns: 1.3fr 10px 1fr;
         grid-template-rows: 1fr 0.15fr 1fr;
         height: 75vh;
         .button {
@@ -34,7 +34,6 @@
         position: relative;
         .main_details {
             position: absolute;
-            bottom: 1rem;
         }
     
         .category {
