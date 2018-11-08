@@ -1,17 +1,17 @@
 # README
 
 # A link (URL) to your published App
-⋅⋅* https://lit-spire-85165.herokuapp.com/
+- https://lit-spire-85165.herokuapp.com/
 
 # A link to your GitHub repository
-⋅⋅* https://github.com/lilianamolloy/tradeup
-⋅⋅* https://github.com/Aitzu/tradeup
-⋅⋅* https://github.com/zainab-y/tradeup
+- https://github.com/lilianamolloy/tradeup
+- https://github.com/Aitzu/tradeup
+- https://github.com/zainab-y/tradeup
 
 # Description of the project TradeUp
 ## Problem definition / purpose
 
-TradeUp is a Ruby on Rails application designed, built, deployed and presented by Lili, Aitzu and Zainab. This app will cater to two markets, property managers and tradespeople.
+TradeUp is a Ruby on Rails application designed, built,deployed and presented by Lili, Aitzu and Zainab. This app will cater to two markets, property managers and tradespeople.
 
 ##### Problem
 
@@ -59,19 +59,19 @@ Unfortunetly this feature which we included for better user experience did not i
 
 # Screenshots
 
-![Alt text](./docs/webpage-shots/404-error.png "Website Screenshots")
+![Alt text](./docs/webpage-shots/home.png "Website Screenshots")
+![Alt text](./docs/webpage-shots/sign-up-page.png "Website Screenshots")
+![Alt text](./docs/webpage-shots/default-user-profile.png "Website Screenshots")
 ![Alt text](./docs/webpage-shots/complete-user-profile.png "Website Screenshots")
 ![Alt text](./docs/webpage-shots/create-job.png "Website Screenshots")
 ![Alt text](./docs/webpage-shots/default-my-jobs-page.png "Website Screenshots")
-![Alt text](./docs/webpage-shots/default-user-profile.png "Website Screenshots")
-![Alt text](./docs/webpage-shots/home.png "Website Screenshots")
 ![Alt text](./docs/webpage-shots/job-accepted.png "Website Screenshots")
 ![Alt text](./docs/webpage-shots/job-index.png "Website Screenshots")
 ![Alt text](./docs/webpage-shots/job-show-page.png "Website Screenshots")
 ![Alt text](./docs/webpage-shots/if-jobs-page.png "Website Screenshots")
 ![Alt text](./docs/webpage-shots/screencapture.png "Website Screenshots")
 ![Alt text](./docs/webpage-shots/server-error.png "Website Screenshots")
-![Alt text](./docs/webpage-shots/sign-up-page.png "Website Screenshots")
+![Alt text](./docs/webpage-shots/404-error.png "Website Screenshots")
 
 # Tech stack (e.g. html, css, deployment platform, etc)
 
@@ -89,7 +89,7 @@ Unfortunetly this feature which we included for better user experience did not i
                 ⋅⋅* mailer -gem
   
 # Instructions on how to setup, configure and use your App.
-
+ 
 To use our app you simply follow the link above to our published app. 
 
 Without signing in/signing up you only have the ability to view current jobs listed. 
@@ -119,9 +119,11 @@ Once the job is completed you can log in an head to my jobs console where you ca
 # Design documentation including,
 ## Design process
 ##Moodboard
+
 ![Alt text](./docs/moodboard-tradeup.jpg)
 
 ## Colour palette
+
 ![Alt text](./docs/colour-palette.png)
 
 ## Logo
@@ -167,29 +169,29 @@ https://trello.com/b/AQ31YGK7/rails-project
 
 1. What is the need (i.e. challenge) that you will be addressing in your project?
 
-    The real estate industry is one of the largest industry in Australia. In saying that, we would like to assist property managers to find tradespeople when all their regular tradespeople are too busy or unable to attend as soon as required. 
+The real estate industry is one of the largest industry in Australia. In saying that, we would like to assist property managers to find tradespeople when all their regular tradespeople are too busy or unable to attend as soon as required. 
 
-    We are also creating a platform for tradespeople who are able to go to to earn some extra money if they happen to have the time.
+We are also creating a platform for tradespeople who are able to go to to earn some extra money if they happen to have the time.
 
 2. Identify the problem you’re trying to solve by building this particular marketplace App? Why is it a problem that needs solving?
 
-    The problems we are trying to solve is where property managers often find it difficult to get a tradesperson to perform a task due to reasons such as little pay,short time, limited reach of tradespeople and their unavailability, especially during peak season. 
+The problems we are trying to solve is where property managers often find it difficult to get a tradesperson to perform a task due to reasons such as little pay,short time, limited reach of tradespeople and their unavailability, especially during peak season. 
 
-    By solving this, there is more efficiency and less time chasing up leads as the application will cut off time being used to find a tradesperson. 
+By solving this, there is more efficiency and less time chasing up leads as the application will cut off time being used to find a tradesperson. 
 
 3. Describe the project you will be conducting and how your App will address the needs.
 
-    Along with it being a platform to connect maintenance which needs fixing and tradespeople with spare time. We will also be providing a place to compile maintenance jobs in an easy to manage and user friendly way. 
+Along with it being a platform to connect maintenance which needs fixing and tradespeople with spare time. We will also be providing a place to compile maintenance jobs in an easy to manage and user friendly way. 
 
-    We all know a property manager who struggles with ensuring maintenance is done, this is largely due to the systems in place being unfriendly to users and hard to understand with so many steps just to look at current outstanding maintenance.
+We all know a property manager who struggles with ensuring maintenance is done, this is largely due to the systems in place being unfriendly to users and hard to understand with so many steps just to look at current outstanding maintenance.
 
-    With our app we will simplify this and generate a page where both property managers and trades people can go to and immediately can identify outstanding jobs, jobs to be paid, etc.
+With our app we will simplify this and generate a page where both property managers and trades people can go to and immediately can identify outstanding jobs, jobs to be paid, etc.
 
-    Ideally property managers will even encourage their regular tradespeople to accept jobs through our app.
+Ideally property managers will even encourage their regular tradespeople to accept jobs through our app.
 
 4. Describe the network infrastructure the App may be based on.
 
-    We are using the Heroku platform for our app as it allows us to host it while having us continuously develop our app. PostgreSQL is offered through Heroku as an add-on and provides security for us.
+We are using the Heroku platform for our app as it allows us to host it while having us continuously develop our app. PostgreSQL is offered through Heroku as an add-on and provides security for us.
 
 5. Identify and describe the software to be used in your App.
 
@@ -201,17 +203,17 @@ https://trello.com/b/AQ31YGK7/rails-project
 
 6. Identify the database to be used in your App and provide a justification for your choice.
 
-    After reviewing our database options which included sqlite and postgresql we settled on the latter for the following reasons.
+After reviewing our database options which included sqlite and postgresql we settled on the latter for the following reasons.
 
-⋅⋅* PostgreSQL is open-source and free
+- PostgreSQL is open-source and free
 
-⋅⋅* PostgreSQL has a strong community, which means finding solutions and information for it is easy.
+- PostgreSQL has a strong community, which means finding solutions and information for it is easy.
 
-⋅⋅* PostgreSQL has a strong third-party extensions/tools for design and management purposes.
+- PostgreSQL has a strong third-party extensions/tools for design and management purposes.
 
-    SQLite's disadvantage to this is that we could not be able to tinker the design and add for better performance in our app. The library is very simple and it isn't made for complex databases as opposed to PostgreSQL.
+SQLite's disadvantage to this is that we could not be able to tinker the design and add for better performance in our app. The library is very simple and it isn't made for complex databases as opposed to PostgreSQL.
 
-7. Identify and describe the production database setup (i.e. postgres instance).
+1. Identify and describe the production database setup (i.e. postgres instance).
 
     Here I would talk about the specifics of postgres, how it connects to your models, how it sits in overall MVC
 
@@ -220,7 +222,7 @@ https://trello.com/b/AQ31YGK7/rails-project
 
     We have a table called "job_categories" where it has categories of each trade you can select from.  A  "job_statuses" table where the user can see whether the job is open or closed.
 
-8. Describe the architecture of your App.
+2. Describe the architecture of your App.
 
 We started by scaffolding Jobs, this generated the models views and controllers. This was necessary as we will require a page to display all the jobs(index) a jobs show page for each individual job, new page to create a job and edit page as well.
 
@@ -237,42 +239,42 @@ The charges controller was generated to handle the logic for the stripe gem.
 A job mailer and view was also created to handle the emails sent out at different stages of the job status.
 
 Our models are:
-⋅⋅* address.rb
-⋅⋅* application_record.rb
-⋅⋅* job_category.rb
-⋅⋅* job_status.rb
-⋅⋅* job.rb
-⋅⋅* user_job.rb
-⋅⋅* user_profile.rb
-⋅⋅* user.rb
+-   address.rb
+-   application_record.rb
+-   job_category.rb
+-   job_status.rb
+-   job.rb
+-   user_job.rb
+-   user_profile.rb
+-   user.rb
 
 Our views are:
-⋅⋅* devise
+-   devise
     We used devise for the purpose of registration of our users
 
-⋅⋅* job mailer
+-   job mailer
     We used this for notifying our users if a job has been taken through email, for payment reminders and payment recieved notifications.
 
-⋅⋅* jobs
+-   jobs
     We used the jobs view to display the forms where the property manager user has to create the job.
 
-⋅⋅* errors
+-   errors
     This was used to display errors if the user landed on a broken link.(404)
 
-⋅⋅* pages
-⋅⋅* shared
+-   pages
+-   shared
     The navbar.html.erb displays the navbar on every page.
 
-⋅⋅* user_profiles
+-   user_profiles
     This displayed user information such as the user's profile picture, bio, state, city etc.
 
 Our controllers are:
-⋅⋅* users
-⋅⋅* helpers
-⋅⋅* application
-⋅⋅* charges
-⋅⋅* errors
-⋅⋅* user_profiles
+-   users
+-   helpers
+-   application
+-   charges
+-   errors
+-   user_profiles
 
 9. Explain the different high-level components (abstractions) in your App.
 
@@ -287,7 +289,7 @@ Our controllers are:
 
     For our errors we genrated an errors controller which manages two views including 404 error and 500 errors.
 
-10. Detail any third party services that your App will use.
+10.  Detail any third party services that your App will use.
     
     - Heroku is used to deploy the website
     - AWS - s3 storage service for storing images uploaded
@@ -299,7 +301,7 @@ Our controllers are:
     - stripe -gem is used for payment handling and processing
     - http://avatars.adorable.io/ - used to generate unique profile pictures based on usernames, if a user has not uploaded their picture. 
 
-11. Describe (in general terms) the data structure of marketplace apps that are similar to your own (e.g. eBay, Airbnb).
+11.  Describe (in general terms) the data structure of marketplace apps that are similar to your own (e.g. eBay, Airbnb).
 
     A similar market place app would be hipages. 
 
@@ -311,7 +313,7 @@ Our controllers are:
 
     They have some sort of rating system for their trades people. For better user experience and trust this would ideally be added to our application in future development.
 
-12.  Discuss the database relations to be implemented.
+12.   Discuss the database relations to be implemented.
 
     The Jobs table is associated with the user through a join table. A job in this case has 2 users the property manager who is the creator; the first user associated with the job and the trades person who is the acceptor; the second person associated with the job.
 
@@ -321,7 +323,7 @@ Our controllers are:
 
     The user has one user profile. This is generated after user registration is complete.
 
-13.  Describe your project’s models in terms of the relationships (active record associations) they have with each other.
+13.   Describe your project’s models in terms of the relationships (active record associations) they have with each other.
 
     - job has_many_attached images
     - job has_many user_jobs 
@@ -337,96 +339,99 @@ Our controllers are:
     - user_profile belongs_to user
     - user_profile has_one_attached image  
 
-14.  Provide your database schema design.
+14.   Provide your database schema design.
 
 ![alt text](./docs/erd.png)
 
     We seperated our ERD with two colours the pink is to be our MVP what we would aim to complete by the due date. The orange represents additional features we might add on should we have the time.
 
-15.  Provide User stories for your App.
+15.   Provide User stories for your App.
 
 ##### Property manager
-⋅⋅1 In order to get a job done as quickly as possible, I want to be able to find            a tradesperson
-⋅⋅2 In order to view fix the tenants maintenance issue, as a property manager(buyer), I want to be able to find a tradesperson as quickly as possible.
-⋅⋅3 As a property manager, I want to be able to have more reach, so that I can find someone to accept the job sooner.
-⋅⋅4 As a property manager, I want to find someone to do the job during peak periods, so that my tenants don't wait long for repairs.
+    1.  In order to get a job done as quickly as possible, I want to be able to find            a tradesperson
+    2.  In order to view fix the tenants maintenance issue, as a property manager(buyer), I want to be able to find a tradesperson as quickly as possible.
+    3.  As a property manager, I want to be able to have more reach, so that I can find someone to accept the job sooner.
+    4.  As a property manager, I want to find someone to do the job during peak periods, so that my tenants don't wait long for repairs.
 
 ##### Tradesperson
-⋅⋅1 As a tradesperson, I want to do find some work to do, so that I can make some money.
-⋅⋅2 As a tradesperson, I want to do find some work to do, so that I can make some money     while I'm out of a job.
-⋅⋅3 As a tradesperson, I want to do find some work to do, so that I can make some money     to pay the bills.
-⋅⋅4 As a tradesperson, I want to do find work at the touch of a few buttons, so that I      can spend as little effort looking elsewhere.
-⋅⋅5 In order to work as close as home, I want to be able to find the closest job, so        that I don't have to travel too far.
+    1.  As a tradesperson, I want to do find some work to do, so that I can make some money.
+    2.  As a tradesperson, I want to do find some work to do, so that I can make some money     while I'm out of a job.
+    3.  As a tradesperson, I want to do find some work to do, so that I can make some money     to pay the bills.
+    4.  As a tradesperson, I want to do find work at the touch of a few buttons, so that I      can spend as little effort looking elsewhere.
+    5.  In order to work as close as home, I want to be able to find the closest job, so        that I don't have to travel too far.
 
-16.  Describe the way tasks are allocated and tracked in your project.
+1.    Describe the way tasks are allocated and tracked in your project.
     
-    We wrote down all the tasks on Trello and tracked them using label tags, users and calendar functions inside Trello. 
+We wrote down all the tasks on Trello and tracked them using label tags, users and calendar functions inside Trello. 
 
-	In terms of how we allocated the tasks, we decided it’s equally important to make sure everyone learns something from this project and to make sure the MVP is done by due date. 
+In terms of how we allocated the tasks, we decided it’s equally important to make sure everyone learns something from this project and to make sure the MVP is done by due date. 
 
-	We identified everyone’s strengths and weaknesses and assigned roles based on them. At the same time everyone had the chance to take a couple of more challenging tasks.
+We identified everyone’s strengths and weaknesses and assigned roles based on them. At the same time everyone had the chance to take a couple of more challenging tasks.
 
    
-17.  Discuss how Agile methodology is being implemented in your project.
+1.    Discuss how Agile methodology is being implemented in your project.
      
-    We have implemented Agile methodology called Scrum. We have done                   this by using Trello board as a tool to assist us in tracking and performing tasks that are broken down into small parts.
+We have implemented Agile methodology called Scrum. We have done                   this by using Trello board as a tool to assist us in tracking and performing tasks that are broken down into small parts.
      
-    We used slack to communicate with eachother about our project when we were not together and to show and send links.
+We used slack to communicate with eachother about our project when we were not together and to show and send links.
 
-    Our group agreed on having Lili as a our scrum master. Every morning and before finishing the day, we would go plan, work and reflect on what we were going to do and what we have done.
+Our group agreed on having Lili as a our scrum master. Every morning and before finishing the day, we would go plan, work and reflect on what we were going to do and what we have done.
 
-    We would ask questions like, "Does this feature help develop what the client wants", "Is our design meaningful to the client?" etc.
+We would ask questions like, "Does this feature help develop what the client wants", "Is our design meaningful to the client?" etc.
 
-18.  Provide an overview and description of your Source control process.
+1.    Provide an overview and description of your Source control process.
     
-    We used Git, the source control program developed for the Linux open source project,and Github to control the source. 
+We used Git, the source control program developed for the Linux open source project,and Github to control the source. 
      
-    Lili, the scrum master of this project, is responsible for maintaining the upstream version on Github while Zainab and Aitzu work on their local branches and create pull requests to Lili.
+Lili, the scrum master of this project, is responsible for maintaining the upstream version on Github while Zainab and Aitzu work on their local branches and create pull requests to Lili.
 
-	First Lili created a repository on Github. We cloned the repository and all work on the copies locally on the right branches. After the tasks are done,  we would commit the changes and pushed to origin(Github) where we then created pull requests to the scrum master. After Lili received the pull requests she would check the changes, resolved conflicts if any and then merge to the upstream master. 
+First Lili created a repository on Github. We cloned the repository and all work on the copies locally on the right branches. After the tasks are done,  we would commit the changes and pushed to origin(Github) where we then created pull requests to the scrum master. 
+
+After Lili received the pull requests she would check the changes, resolved conflicts if any and then merge to the upstream master. 
     
     The upstream repository remained untouched unless Lili consented to merge. We all then would pulled the latest version from upstream to our computers and continued working on the copies locally.  
 
-19.  Provide an overview and description of your Testing process.
+1.    Provide an overview and description of your Testing process.
 
-    As the number of possible tests for even an simple app like ours is practically infinite, we applied some strategy to select tests that are feasible for the available time and resources. 
+ As the number of possible tests for even an simple app like ours is practically infinite, we applied some strategy to select tests that are feasible for the available time and resources. 
 
-	We aimed for the app to meet the requirements that guides our MVP design and development, bug-free, respond correctly to all kinds of inputs and restricted the intended environments to only the classroom and our own houses. 
-	We all then run several testings under all intended environments with as many scenarios we can think of as possible and reported the bugs on Trello. 
+We aimed for the app to meet the requirements that guides our MVP design and development, bug-free, respond correctly to all kinds of inputs and restricted the intended environments to only the classroom and our own houses. 
+	
+We all then run several testings under all intended environments with as many scenarios we can think of as possible and reported the bugs on Trello. 
 
-20.   Discuss and analyse requirements related to information system security.
+1.     Discuss and analyse requirements related to information system security.
 
-    From our perspective, we believe that any user data handling should relate to the following basic principles:
+From our perspective, we believe that any user data handling should relate to the following basic principles:
 
-    ⋅⋅1. Ensuring privacy of data is a matter of defining and enforcing information rules – not just rules about data collection, but about data use and retention. People should have the ability to manage the flow of their private information across massive, third-party analytical systems.
+    1. Ensuring privacy of data is a matter of defining and enforcing information rules – not just rules about data collection, but about data use and retention. People should have the ability to manage the flow of their private information across massive, third-party analytical systems.
 
-    ⋅⋅2. Shared private information can still remain confidential. It’s not realistic to think of information as either secret or shared, completely public or completely private. But just because we share and generate information, it doesn’t follow that anything goes, whether we’re talking medical data, financial data, address book data, location data, reading data, or anything else.
+    2. Shared private information can still remain confidential. It’s not realistic to think of information as either secret or shared, completely public or completely private. But just because we share and generate information, it doesn’t follow that anything goes, whether we’re talking medical data, financial data, address book data, location data, reading data, or anything else.
 
-    ⋅⋅3. Big data requires transparency. Big data is powerful when secondary uses of data sets produce new predictions and inferences. For big data to work in ethical terms, the data owners (the people whose data we are handling) need to have a transparent view of how our data is being used – or sold.
+    3. Big data requires transparency. Big data is powerful when secondary uses of data sets produce new predictions and inferences. For big data to work in ethical terms, the data owners (the people whose data we are handling) need to have a transparent view of how our data is being used – or sold.
 
-    ⋅⋅4. Big Data can compromise identity. Privacy protections aren’t enough any more. Big data analytics can compromise identity by allowing institutional surveillance to moderate and even determine who we are before we make up our own minds. We need to begin to think about the kind of big data predictions and inferences that we will allow, and the ones that we should not.
+    4. Big Data can compromise identity. Privacy protections aren’t enough any more. Big data analytics can compromise identity by allowing institutional surveillance to moderate and even determine who we are before we make up our own minds. We need to begin to think about the kind of big data predictions and inferences that we will allow, and the ones that we should not.
 
-    Authentication is one of the ways in which we have implemented into our project as an information system security. A user can access their own account without having someone else being able to access it too. We have used confirmation emails to authenticate a user as well with Devise.
+Authentication is one of the ways in which we have implemented into our project as an information system security. A user can access their own account without having someone else being able to access it too. We have used confirmation emails to authenticate a user as well with Devise.
 
-    Our group has also discussed security and safety issues when validating a tradesperson's licence. It's not wise to have tradespeople with no real qualifications and licence to do the job if it means putting others at risk. A form could be developed in the future where their credentials would be checked.
+Our group has also discussed security and safety issues when validating a tradesperson's licence. It's not wise to have tradespeople with no real qualifications and licence to do the job if it means putting others at risk. A form could be developed in the future where their credentials would be checked.
 
 
-21.   Discuss methods you will use to protect information and data.
+21.     Discuss methods you will use to protect information and data.
 
-    Our app collects the user’s name, email, password, physical address and phone number. The methods we have implemented for information security purposes include: user authentication, functional level access control and password encryption using devise and pundit. Users can make payment on our app but it’s handled by Stripe so we are not storing any sensitive data relating to the payment.
+Our app collects the user’s name, email, password, physical address and phone number. The methods we have implemented for information security purposes include: user authentication, functional level access control and password encryption using devise and pundit. Users can make payment on our app but it’s handled by Stripe so we are not storing any sensitive data relating to the payment.
 
-    We also don't collect data to release to third-parties and through Heroku, we are provided SSL where our user's data is being protected from the server to their computer.
+We also don't collect data to release to third-parties and through Heroku, we are provided SSL where our user's data is being protected from the server to their computer.
 
-22.  Research what your legal obligations are in relation to handling user data.
+22.    Research what your legal obligations are in relation to handling user data.
 
-    Legal obligations for handling user data differ from the laws of each country and depending on where your user(s) are from. In Australia, users are protected by the Privacy Act 1988(Privacy Act), which outlines how an organisation or business must do to handle, use and manage user data.
+Legal obligations for handling user data differ from the laws of each country and depending on where your user(s) are from. In Australia, users are protected by the Privacy Act 1988(Privacy Act), which outlines how an organisation or business must do to handle, use and manage user data.
 
-    Australian Privacy Principles(APPs) is found under the Privacy Act: "
-    ⋅⋅* the open and transparent management of personal information including having a privacy policy
-    ⋅⋅* an individual having the option of transacting anonymously or using a pseudonym where practicable
-    ⋅⋅* the collection of solicited personal information and receipt of unsolicited personal information including giving notice about collection
-    ⋅⋅* how personal information can be used and disclosed (including overseas)
+Australian Privacy Principles(APPs) is found under the Privacy Act: "...
+    -   the open and transparent management of personal information including having a privacy policy
+    -   an individual having the option of transacting anonymously or using a pseudonym where practicable
+    -   the collection of solicited personal information and receipt of unsolicited personal information including giving notice about collection
+    -   how personal information can be used and disclosed (including overseas)
     maintaining the quality of personal information
-    ⋅⋅* keeping personal information secure
-    ⋅⋅* right for individuals to access and correct their personal information. ”
+    -   keeping personal information secure
+    -   right for individuals to access and correct their personal information ...”
 [I'm an inline-style link](https://www.oaic.gov.au/privacy-law/privacy-act/australian-privacy-principles)
