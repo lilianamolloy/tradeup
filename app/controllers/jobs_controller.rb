@@ -170,6 +170,7 @@ class JobsController < ApplicationController
 
     # creates the user _job entry when a job is creates
     def create_user_job
+      puts "creating user jobs"
       @user_job = UserJob.new 
       @user_job.user = current_user
       @user_job.job = Job.last
