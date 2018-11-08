@@ -1,139 +1,148 @@
 // whole page
-.job_show-page {
-       
-}
-
-.message {
-    font-size: 1.6rem;
-    text-align: center;
-    margin: 2rem;
-}
-
-.job_details {
-    display: grid;
-    font-size: 1rem;
-    grid-template-columns: 1.3fr 0.4fr 1fr;
-    grid-template-rows: 1fr 0.15fr 1fr;
-    height: 75vh;
-  }
-
-.icon {
-    display: inline-block;
-    margin: 0.1rem 0.3rem;
-}
-
-
-// boxes
-.box1 {
-    position: relative;
-    .main_details {
-        position: absolute;
-        bottom: 1rem;
-    }
-
-    .category {
+.job-show-page {
+    .message {
+        font-size: 1.6rem;
+        text-align: center;
+        margin: 2rem;
+    } 
+    
+    .job_details {
+        display: grid;
         font-size: 1rem;
-        padding-left: 90px;
+        grid-template-columns: 1.3fr 5px 1fr;
+        grid-template-rows: 1fr 0.15fr 1fr;
+        height: 75vh;
+        .button {
+            border: 1px solid #EE8071;
+            width: 70px;
+            border-radius: 3px;
+            margin-bottom: 5px;
+            padding: 5px;
+            margin-left: 200px;
+            text-align: center;
+        }
+      }
+    
+    .icon {
+        display: inline-block;
+        margin: 0.1rem 0.3rem;
     }
-    .job_title {
-        font-size: 2rem;
-        font-weight: bold;
-        padding-left: 90px;
+    
+    
+    // boxes
+    .box1 {
+        position: relative;
+        .main_details {
+            position: absolute;
+            bottom: 1rem;
+        }
+    
+        .category {
+            font-size: 1rem;
+            padding-left: 200px;
+        }
+        .job_title {
+            font-size: 2rem;
+            font-weight: bold;
+            padding-left: 200px;
+        }
+        .price {
+            padding-left: 200px;
+        }
+        .icon.clock {
+            padding-left: 200px;
+        }
+        .time {
+            display: inline-block;
+        }
+        .icon.location {
+            padding-left: 200px;
+        }
+        .shortaddress {
+            display: inline-block;
+        }
+        .address {
+            display: inline-block;
+        }
+        .icon.check {
+            padding-left: 200px;
+        }
+        .status_title {
+            display: inline-block;
+        }
+        .status {
+            display: inline-block;
+        }
+    
     }
-    .price {
-        padding-left: 90px;
+    
+    
+    .box3 {
+        align-self: end;
+    
+        .pm_title {
+            // padding-left: 120px;
+        }
+        .icon.user {
+            // padding-left: 90px;
+        }
+        .icon.email {
+            // padding-left: 90px;
+        }
+        .icon.profile {
+            // padding-left: 90px;
+        }
     }
-    .icon.clock {
-        padding-left: 60px;
+    .box7{
+        .desc_title {
+            padding-left: 200px;
+        }
+        .desc {
+            padding-left: 200px;
+        }
     }
-    .time {
+    
+    .box9 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        justify-items: flex-start;
+    }
+    
+    
+    
+    
+    
+    .pm_name {
         display: inline-block;
     }
-    .icon.location {
-        padding-left: 60px;
-    }
-    .shortaddress {
+    
+    .pm_email {
         display: inline-block;
     }
-    .address {
+    
+    .user_profile {
         display: inline-block;
     }
-    .icon.check {
-        padding-left: 60px;
-    }
-    .status_title {
+    
+    .tenant_name {
         display: inline-block;
     }
-    .status {
+    
+    .tenant_contact {
         display: inline-block;
     }
-
-}
-
-
-.box3 {
-    align-self: end;
-
-    .pm_title {
-        padding-left: 90px;
-    }
-    .icon.user {
-        padding-left: 60px;
-    }
-    .icon.email {
-        padding-left: 60px;
-    }
-    .icon.profile {
-        padding-left: 60px;
-    }
-}
-.box7{
-    .desc_title {
-        padding-left: 90px;
-    }
+    
     .desc {
-        padding-left: 90px;
+        max-width: 80%;
+    
+    }
+    
+    .images {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
     }
 }
 
-.box9 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    justify-items: center;
-}
 
-
-
-
-
-.pm_name {
-    display: inline-block;
-}
-
-.pm_email {
-    display: inline-block;
-}
-
-.user_profile {
-    display: inline-block;
-}
-
-.tenant_name {
-    display: inline-block;
-}
-
-.tenant_contact {
-    display: inline-block;
-}
-
-.desc {
-    max-width: 80%;
-
-}
-
-.images {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
-}
 
