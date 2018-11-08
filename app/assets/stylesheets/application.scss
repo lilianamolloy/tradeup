@@ -17,10 +17,19 @@
 @import "jobs/index";
 
 body, html {
-    background-color: #fff;
+    background-color:#EADEDE;
     height: 80vh;
     margin: 0px;
 
+}
+body {
+    // font-family: 'Hind Guntur', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar {
+    // font-family: 'Hind Guntur', sans-serif;
 }
 
 /* The paint brush image */
