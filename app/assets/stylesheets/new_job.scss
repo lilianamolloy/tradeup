@@ -36,14 +36,15 @@
             border: 1px dashed grey;
             max-width: 100%;
             border-radius: 5px;
-            display: flex;
-            justify-content: center;
+            display: block;
+            text-align: center;
             // color: #EE8071;
             background: #E5E5E5;
 
         }
         .desc {
             height: 100px;
+            max-width: 100%; 
         }
         .tenant {
             display: flex;
