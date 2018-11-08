@@ -1,0 +1,139 @@
+// whole page
+.job_show-page {
+       
+}
+
+.message {
+    font-size: 1.6rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.job_details {
+    display: grid;
+    font-size: 1rem;
+    grid-template-columns: 1.3fr 0.4fr 1fr;
+    grid-template-rows: 1fr 0.15fr 1fr;
+    height: 75vh;
+  }
+
+.icon {
+    display: inline-block;
+    margin: 0.1rem 0.3rem;
+}
+
+
+// boxes
+.box1 {
+    position: relative;
+    .main_details {
+        position: absolute;
+        bottom: 1rem;
+    }
+
+    .category {
+        font-size: 1rem;
+        padding-left: 90px;
+    }
+    .job_title {
+        font-size: 2rem;
+        font-weight: bold;
+        padding-left: 90px;
+    }
+    .price {
+        padding-left: 90px;
+    }
+    .icon.clock {
+        padding-left: 60px;
+    }
+    .time {
+        display: inline-block;
+    }
+    .icon.location {
+        padding-left: 60px;
+    }
+    .shortaddress {
+        display: inline-block;
+    }
+    .address {
+        display: inline-block;
+    }
+    .icon.check {
+        padding-left: 60px;
+    }
+    .status_title {
+        display: inline-block;
+    }
+    .status {
+        display: inline-block;
+    }
+
+}
+
+
+.box3 {
+    align-self: end;
+
+    .pm_title {
+        padding-left: 90px;
+    }
+    .icon.user {
+        padding-left: 60px;
+    }
+    .icon.email {
+        padding-left: 60px;
+    }
+    .icon.profile {
+        padding-left: 60px;
+    }
+}
+.box7{
+    .desc_title {
+        padding-left: 90px;
+    }
+    .desc {
+        padding-left: 90px;
+    }
+}
+
+.box9 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
+
+
+
+
+
+.pm_name {
+    display: inline-block;
+}
+
+.pm_email {
+    display: inline-block;
+}
+
+.user_profile {
+    display: inline-block;
+}
+
+.tenant_name {
+    display: inline-block;
+}
+
+.tenant_contact {
+    display: inline-block;
+}
+
+.desc {
+    max-width: 80%;
+
+}
+
+.images {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
