@@ -154,11 +154,11 @@ Once the job is completed you can log in an head to my jobs console where you ca
 | Day 9 | Testing. Complete ReadMe. Power Point presentation.     |
 | Day 10 | Submit assignment.      |
 
-###Group communication
-![alt text](./docs/the_three_sisters.png)
-![alt text](./docs/the_three_sisters2.png)
+### Group communication
+![alt text](./docs/the-three-sisters.png)
+![alt text](./docs/the-three-sisters2.png)
 
-###Our Trello
+### Our Trello
 https://trello.com/b/AQ31YGK7/rails-project
 
 ![Alt text](./docs/trello-tradeup.jpg "Trello")
