@@ -13,8 +13,7 @@
         <div class="time"><%= @job.tenant_available_time %></div><br>
         <% if !@is_job_creator && @job_status == 1 %>
           <div class="icon location"><%= image_tag asset_path('location.png'), width:"20"%></div>
-          <div class="short_address"><%= @job.city %>, <%= @job.state %>, <%= @job.postcode %></div>
-          <p>Detailed address will be shown after the job is accepted</p>
+          <div class="short_address"><%= @job.city %>, <%= @job.state %>, <%= @job.postcode %></div><br>
         <% end %>
         <% if @is_job_creator || @job_status == 2 || @job_status ==3 || @job_status ==4  %>
           <div class="icon location"><%= image_tag asset_path('location.png'), width:"20"%></div>
@@ -24,29 +23,21 @@
         <div class="status_title">Job Status:</div>
         <div class="status"><%= @job.job_status.status.capitalize %></div>
 
-          <% if @is_job_creator && @job_status == 1 %>
-          <div class="button">
-            <%= link_to 'Edit', edit_job_path(@job)%> 
-          </div>
-          <div class="button">
-            <%= link_to 'Delete', @job, method: :delete, data: { confirm: 'Are you sure you want to delete this job? This action cannot be reversed' } %>
-          </div>
-          <% end %>
+        <% if @is_job_creator && @job_status == 1 %>
+          <div class="button"><%= link_to 'Edit', edit_job_path(@job)%></div>
+          <div class="button delete"><%= link_to 'Delete', @job, method: :delete, data: { confirm: 'Are you sure you want to delete this job? This action cannot be reversed' } %></div>
+        <% end %>
 
-          <% if @job_status == 1 && !@is_job_creator && @job.users.count < 2 %>
-          <div class="button">
-            <%= link_to 'Accept', jobs_accept_path(@job.id, :job_id => @job.id) %>
-          </div>
-          <% end %>
+        <% if @job_status == 1 && !@is_job_creator && @job.users.count < 2 %>
+          <div class="button"><%= link_to 'Accept', jobs_accept_path(@job.id, :job_id => @job.id) %></div>
+        <% end %>
 
-          <% if @job_status == 2 && @is_job_acceptor %>
-          <div class="button">
-            <%= link_to "Job Completed", jobs_complete_path(@job.id) %>
-          </div>
-          <% end %>
+        <% if @job_status == 2 && @is_job_acceptor %>
+          <div class="button"><%= link_to "Job Completed", jobs_complete_path(@job.id) %></div>
+        <% end %>
 
-          <% if @job_status == 3 && @is_job_creator %>
-            <%= form_tag charges_path do %>
+        <% if @job_status == 3 && @is_job_creator %>
+          <%= form_tag charges_path do %>
             <%= hidden_field_tag(:job_id, @job.id) %>
               <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
                       data-key="<%= Rails.configuration.stripe[:publishable_key] %>"
@@ -54,23 +45,17 @@
                       data-amount="<%= @job.price %>"
                       data-currency="aud"
                       data-locale="auto"></script>
-            <% end %>
           <% end %>
+        <% end %>
 
-          <% if @job_status == 3 && @is_job_acceptor %>
-            <div class="button">
-              <%= link_to "Back to Home", root_path %>
-            </div>
-          <% end %>
+        <% if @job_status == 3 && @is_job_acceptor %>
+          <div class="button"><%= link_to "Back to Home", root_path %></div>
+        <% end %>
       </div>
     </div>
 
     <div class="box2">
-    </div>
-
-    <div class="box3">
-      <div class="pm_title">Property Manager</div>
-      <br>
+      <div class="pm_title">Property Manager</div><br>
       <div class="icon user"><%= image_tag asset_path('user.png'), width:"20"%></div>
       <div class="pm_name"><p><%= @job.users.first.username %></p></div><br>
       <div class="icon email"><%= image_tag asset_path('email.png'), width:"20"%></div>
@@ -79,42 +64,29 @@
       <div class="user_profile link"><p>Click <a href="../user_profiles/<%=@job.users.first.user_profile.id%>" style="color:#EE8071">HERE</a> to check the profile</p></div>
     </div>
 
-    <div class="box4">
-    </div>
-
-    <div class="box5">
-    </div>
-
-    <div class="box6">
-    </div>
-
-    <div class="box7">
-      <div class="desc_title">About the Job:</div>
-      <br>
+    <div class="box3">
+      <div class="desc_title">About the Job:</div><br>
       <div class="desc"><%= @job.description %></div>
     </div>
 
-    <div class="box8">
-    </div>
-
-    <div class="box9">
-      <div class="tenant1">
+    <div class="box4">
       <% if @is_job_creator || @is_job_acceptor  %>
-        <div class="tenant_title">Tenant:</div>
-        <br>
-        <div class="icon user"><%= image_tag asset_path('user.png'), width:"20"%></div>
-        <div class="tenant_name"><%= @job.tenant_one_name %></div><br>
-        <div class="icon phone"><%= image_tag asset_path('phone.png'), width:"20"%></div>
-        <div class="tenant_contact"><%= @job.tenant_one_contact %></div></div>
-        <% if @job.tenant_two_name.present?%>
-        <div class="tenant2">
-          <div class="tenant_title">Tenant:</div>
-          <br>
-          <div class="icon tenant_name"><%= image_tag asset_path('user.png'), width:"20"%></div>
-          <div class="tenant_name"><%= @job.tenant_two_name %></div><br>
+        <div class="tenant1">
+          <div class="tenant_title">Tenant:</div><br>
+          <div class="icon user"><%= image_tag asset_path('user.png'), width:"20"%></div>
+          <div class="tenant_name"><%= @job.tenant_one_name %></div><br>
+          <div class="icon phone"><%= image_tag asset_path('phone.png'), width:"20"%></div>
+          <div class="tenant_contact"><%= @job.tenant_one_contact %></div></div>
+          <% if @job.tenant_two_name.present?%>
+            <div class="tenant2">
+            <div class="tenant_title">Tenant:</div><br>
+            <div class="icon tenant_name"><%= image_tag asset_path('user.png'), width:"20"%></div>
+            <div class="tenant_name"><%= @job.tenant_two_name %></div><br>
             <div class="icon phone"><%= image_tag asset_path('phone.png'), width:"20"%></div>
-          <div class="tenant_contact"><%= @job.tenant_two_contact %></div></div>
-        <% end %>
+            <div class="tenant_contact"><%= @job.tenant_two_contact %></div></div>
+          <% end %>
+      <% else %>
+        <div class="tenant_msg"><p>Tenant details will be shown after the job is accepted</p></div>
       <% end %>
     </div>
   </div>

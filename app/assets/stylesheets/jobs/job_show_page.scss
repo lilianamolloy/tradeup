@@ -9,138 +9,122 @@
     .job_details {
         display: grid;
         font-size: 1rem;
-        grid-template-columns: 1.3fr 10px 1fr;
-        grid-template-rows: 1fr 0.15fr 1fr;
-        height: 75vh;
+        grid-template-columns: 1.5fr 1fr;
+        grid-template-rows: 1.5fr 1fr;
+        height: 70vh;
+        grid-gap: 60px 200px;
+
         .button {
             border: 1px solid #EE8071;
             width: 40px;
             border-radius: 3px;
+            margin-top: 10px;
             margin-bottom: 5px;
             padding: 5px;
-            margin-left: 200px;
+            margin-left: 230px;
             text-align: center;
+            display: inline-block;
+        }
+
+        .button.delete {
+            margin-left: 0px;
+
+        }
+
+        .icon {
+            display: inline-block;
+            margin: 0.1rem 0.3rem;
+        }
+
+        .box1 {  
+            position: relative;
+
+            .category {
+                font-size: 1rem;
+                padding-left: 200px;
+            }
+            .job_title {
+                font-size: 2rem;
+                font-weight: bold;
+                padding-left: 200px;
+            }
+            .price {
+                padding-left: 200px;
+                float: right;
+            }
+            .icon.clock {
+                padding-left: 200px;
+            }
+            .time {
+                display: inline-block;
+            }
+            .icon.location {
+                padding-left: 200px;
+            }
+            .short_address {
+                display: inline-block;
+            }
+            .address_msg {
+                display: inline-block;
+                padding-left: 200px;
+            }
+            .address {
+                display: inline-block;
+            }
+            .icon.check {
+                padding-left: 200px;
+            }
+            .status_title {
+                display: inline-block;
+            }
+            .status {
+                display: inline-block;
+            }
+            .main_details {
+                position: absolute;
+                bottom: 5px;
+            }
+        
+        }
+        
+        .box2 {
+            align-self: end;
+            .pm_title {
+                margin-left: 30px;
+            }
+
+            .pm_name {
+                display: inline-block;
+            }
+            .pm_email {
+                display: inline-block;
+            }
+            .user_profile {
+                display: inline-block;
+            }
+
+        }
+        .box3 {
+            .desc_title {
+                padding-left: 200px;
+            }
+            .desc {
+                padding-left: 200px;
+            }
+        }
+        
+        .box4 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            justify-items: flex-start;
         }
       }
-    
-    .icon {
-        display: inline-block;
-        margin: 0.1rem 0.3rem;
-    }
-    
-    
-    // boxes
-    .box1 {
-        position: relative;
-        .main_details {
-            position: absolute;
-        }
-    
-        .category {
-            font-size: 1rem;
-            padding-left: 200px;
-        }
-        .job_title {
-            font-size: 2rem;
-            font-weight: bold;
-            padding-left: 200px;
-        }
-        .price {
-            padding-left: 200px;
-        }
-        .icon.clock {
-            padding-left: 200px;
-        }
-        .time {
-            display: inline-block;
-        }
-        .icon.location {
-            padding-left: 200px;
-        }
-        .shortaddress {
-            display: inline-block;
-        }
-        .address {
-            display: inline-block;
-        }
-        .icon.check {
-            padding-left: 200px;
-        }
-        .status_title {
-            display: inline-block;
-        }
-        .status {
-            display: inline-block;
-        }
-    
-    }
-    
-    
-    .box3 {
-        align-self: end;
-    
-        .pm_title {
-            // padding-left: 120px;
-        }
-        .icon.user {
-            // padding-left: 90px;
-        }
-        .icon.email {
-            // padding-left: 90px;
-        }
-        .icon.profile {
-            // padding-left: 90px;
-        }
-    }
-    .box7{
-        .desc_title {
-            padding-left: 200px;
-        }
-        .desc {
-            padding-left: 200px;
-        }
-    }
-    
-    .box9 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        justify-items: flex-start;
-    }
-    
-    
-    
-    
-    
-    .pm_name {
-        display: inline-block;
-    }
-    
-    .pm_email {
-        display: inline-block;
-    }
-    
-    .user_profile {
-        display: inline-block;
-    }
-    
-    .tenant_name {
-        display: inline-block;
-    }
-    
-    .tenant_contact {
-        display: inline-block;
-    }
-    
-    .desc {
-        max-width: 80%;
-    
-    }
     
     .images {
         display: flex;
         flex-flow: row wrap;
         justify-content: space-around;
-    }
+    }   
 }
 
 
