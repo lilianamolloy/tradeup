@@ -19,9 +19,11 @@
         border-radius: 5px;
         color: #EE8071;
         margin-left: 15vw;
-        padding-left: 50px;
-        padding-top: 10px;
-        padding-bottom: 10px;
+        padding: auto 10px;
+        .content {
+            width: 90%;
+            margin: 10px auto;
+        }
         .box {
             width: 100%;
             background: #E5E5E5;
