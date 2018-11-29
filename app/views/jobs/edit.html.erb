@@ -1,5 +1,11 @@
-<h1>Edit Job Details</h1>
+<div class="new-job">
+    <div class="card">
+        <h1>Edit Job Details</h1>
 
-<%= render 'form', job: @job %>
-
-<%= link_to 'Show', @job %> 
+        <%= render 'form', job: @job %>
+        <br>
+        <button>
+            <%= link_to 'Show', @job %> 
+        </button>
+    </div>
+</div>
