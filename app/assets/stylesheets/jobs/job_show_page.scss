@@ -1,19 +1,145 @@
 // whole page
-.job-show-page {
-    .message {
-        font-size: 1.6rem;
-        text-align: center;
-        margin: 2rem;
-    } 
+// .job-show-page {
+//     .message {
+//         font-size: 1.6rem;
+//         text-align: center;
+//         margin: 2rem;
+//     } 
     
-    .job_details {
-        display: grid;
-        font-size: 1rem;
-        grid-template-columns: 1.5fr 1fr;
-        grid-template-rows: 1.5fr 1fr;
-        height: 70vh;
-        grid-gap: 60px 200px;
+//     .job_details {
+//         display: grid;
+//         font-size: 1rem;
+//         grid-template-columns: 1.5fr 1fr;
+//         grid-template-rows: 1.5fr 1fr;
+//         height: 70vh;
+//         grid-gap: 60px 200px;
 
+//         .button {
+//             border: 1px solid #EE8071;
+//             width: 50px;
+//             border-radius: 3px;
+//             margin-top: 10px;
+//             margin-bottom: 5px;
+//             padding: 5px;
+//             margin-left: 230px;
+//             text-align: center;
+//             display: inline-block;
+//         }
+
+//         .button.delete {
+//             margin-left: 0px;
+
+//         }
+
+//         .icon {
+//             display: inline-block;
+//             margin: 0.1rem 0.3rem;
+//         }
+
+//         .box1 {  
+//             position: relative;
+
+//             .category {
+//                 font-size: 1rem;
+//                 padding-left: 200px;
+//             }
+//             .job_title {
+//                 font-size: 2rem;
+//                 font-weight: bold;
+//                 padding-left: 200px;
+//             }
+//             .price {
+//                 padding-left: 200px;
+//                 float: right;
+//             }
+//             .icon.clock {
+//                 padding-left: 200px;
+//             }
+//             .time {
+//                 display: inline-block;
+//             }
+//             .icon.location {
+//                 padding-left: 200px;
+//             }
+//             .short_address {
+//                 display: inline-block;
+//             }
+//             .address_msg {
+//                 display: inline-block;
+//                 padding-left: 200px;
+//             }
+//             .address {
+//                 display: inline-block;
+//             }
+//             .icon.check {
+//                 padding-left: 200px;
+//             }
+//             .status_title {
+//                 display: inline-block;
+//             }
+//             .status {
+//                 display: inline-block;
+//             }
+//             .main_details {
+//                 position: absolute;
+//                 bottom: 5px;
+//             }
+        
+//         }
+        
+//         .box2 {
+//             align-self: end;
+//             .pm_title {
+//                 margin-left: 30px;
+//             }
+
+//             .pm_name {
+//                 display: inline-block;
+//             }
+//             .pm_email {
+//                 display: inline-block;
+//             }
+//             .user_profile {
+//                 display: inline-block;
+//             }
+
+//         }
+//         .box3 {
+//             .desc_title {
+//                 padding-left: 200px;
+//             }
+//             .desc {
+//                 padding-left: 200px;
+//             }
+//         }
+        
+//         .box4 {
+//             display: grid;
+//             grid-template-columns: 1fr 1fr;
+//             justify-items: flex-start;
+//         }
+//       }
+    
+//     .images {
+//         display: flex;
+//         flex-flow: row wrap;
+//         justify-content: space-around;
+//     }   
+// }
+
+.job-show-page {
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    .job-details {
+    margin-left: 100px;
+        padding-top: 50px;
+        width: 60vw;
+        display: flex;
+        flex-flow: column;
+        .align {
+            margin-left: 0;
+        }
         .button {
             border: 1px solid #EE8071;
             width: 50px;
@@ -21,110 +147,54 @@
             margin-top: 10px;
             margin-bottom: 5px;
             padding: 5px;
-            margin-left: 230px;
+            // margin-left: 230px;
+            margin: 10px;
             text-align: center;
-            display: inline-block;
         }
-
-        .button.delete {
-            margin-left: 0px;
-
+        .longbtn {
+            width: 100px;
         }
-
+        
         .icon {
-            display: inline-block;
-            margin: 0.1rem 0.3rem;
+            display: inline;
+            // background: blue;
+            margin-bottom: 10px;
         }
-
-        .box1 {  
-            position: relative;
-
-            .category {
-                font-size: 1rem;
-                padding-left: 200px;
-            }
-            .job_title {
-                font-size: 2rem;
-                font-weight: bold;
-                padding-left: 200px;
-            }
-            .price {
-                padding-left: 200px;
-                float: right;
-            }
-            .icon.clock {
-                padding-left: 200px;
-            }
-            .time {
-                display: inline-block;
-            }
-            .icon.location {
-                padding-left: 200px;
-            }
-            .short_address {
-                display: inline-block;
-            }
-            .address_msg {
-                display: inline-block;
-                padding-left: 200px;
-            }
-            .address {
-                display: inline-block;
-            }
-            .icon.check {
-                padding-left: 200px;
-            }
-            .status_title {
-                display: inline-block;
-            }
-            .status {
-                display: inline-block;
-            }
-            .main_details {
-                position: absolute;
-                bottom: 5px;
-            }
-        
+        p {
+            // background: red;
+            margin-left: 20px;
+            // width: 80%;
+            display: inline;
         }
-        
-        .box2 {
-            align-self: end;
-            .pm_title {
-                margin-left: 30px;
-            }
-
-            .pm_name {
-                display: inline-block;
-            }
-            .pm_email {
-                display: inline-block;
-            }
-            .user_profile {
-                display: inline-block;
-            }
-
+        .buttons {
+            display: flex;
+            flex-flow: row;
         }
-        .box3 {
-            .desc_title {
-                padding-left: 200px;
+        .tenants {
+            width: 100%;
+            display: flex;
+            flex-flow: row;
+            margin-left: -30px;
+            justify-content: space-around;
+            padding: 20px;
+            .tenant1, .tenant2, .pm {
+                background: #fff;
+                border-radius: 4px;
+                width: 300px;
+                padding: 20px;
+                // margin: 10px;
             }
-            .desc {
-                padding-left: 200px;
+            .tenant1, .tenant2 {
+                width: 200px;
             }
         }
-        
-        .box4 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            justify-items: flex-start;
-        }
-      }
-    
+    }
     .images {
         display: flex;
-        flex-flow: row wrap;
-        justify-content: space-around;
-    }   
+        width: 40vw;
+        flex-flow: column;
+        margin: 50px;
+    }
 }
 
 
